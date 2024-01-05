@@ -47,7 +47,7 @@ export const Management = () => {
   return (
     <VStack>
       <Button colorScheme="blue" m={4} onClick={onOpen}>
-        Add Contact
+        add user contact
       </Button>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
